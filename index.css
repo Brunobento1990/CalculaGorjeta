@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    border: 0;
+    font-family: 'Space Mono', monospace;
+    outline-style: none;
+}
+body{
+    background-color: hsl(172, 67%, 45%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 1240px;
+    height: 100vh;
+}
+
+#container{
+    width: 700px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 17px;
+}
+#numb1{
+    display: grid;
+    grid-template-rows: 25% 50% 25%;
+}
+
+#numb2{
+    
+    background-color: hsl(183, 100%, 15%);
+    width: 90%;
+    height: 88%;
+    margin: 21px 18px;
+    border-radius: 10px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+
+}
+#result-tip{
+    margin-top: 28px;
+    color: hsl(172, 67%, 45%);
+    font-size: 34px;
+    text-align: end;
+    margin-right: 30px;
+    font-weight: 700;
+}
+#total{
+  
+    color: hsl(172, 67%, 45%);
+    font-size: 34px;
+    text-align: end;
+    margin-right: 30px;
+    font-weight: 700;
+}
+#gorja1{
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+#name-result1 {
+    margin-left: 30px;
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+}
+#name-result {
+    margin:30px;
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+}
+#gorja2{
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+
+#gorja3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resetbtn{
+    width: 230px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+    font-size: 20px;
+    cursor: pointer;
+}
+#gorja3 button:hover{
+    background-color: hsl(185, 41%, 84%);
+}
+#first{
+    display:grid;
+    grid-template-rows: 50% 50%;
+    margin-top: 10px;
+}
+#conta{
+    width: 300px;
+    height: 32px;
+    background-color: hsl(185, 41%, 84%);
+    border-radius: 4px;
+    margin-left: 30px;
+    background-image: url(./images/icon-dollar.svg);
+    background-repeat: no-repeat;
+    background-position-x: 15px;
+    background-position-y: 10px;
+    background-size: 8px;
+    text-align: right;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    color: hsl(183, 100%, 15%);
+}
+#conta:hover{
+
+    cursor:pointer;
+    border:solid 2px hsl(172, 67%, 45%);
+}
+#first span{
+margin-left: 30px;
+    margin-top: 25px;
+    color:hsl(183, 100%, 15%);
+    font-size:12px;
+    font-weight:500;
+}
+#btn{
+    display: grid;
+    grid-template-rows: 20%;
+    margin-left:30px;
+}
+#btn span{
+    color:hsl(183, 100%, 15%);
+    margin-top: 20px;
+    font-size:12px;
+    font-weight:500;
+}
+.btn-click{
+    width:90px;
+    height: 37px;
+    border-radius: 5px;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    margin:4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+}
+.btn-click:hover{
+    background-color: hsl(185, 41%, 84%);
+    color: hsl(183, 100%, 15%);
+
+
+}
+.margin{
+    margin-top: 10px;
+}
+.margin-2{
+    margin-bottom: 30px;
+}
+#footer{
+    display: grid;
+    grid-template-rows: 30% 50%;
+    width: 85%;
+    margin-left: 30px;
+}
+#footer-text{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    color:hsl(183, 100%, 15%);
+   font-weight: 500;
+   font-size:12px;
+}
+#numpeople{
+    width: 100%;
+    background-image: url('./images/icon-person.svg');
+    background-repeat: no-repeat;
+    background-color: hsl(185, 41%, 84%);
+    height: 32px;
+    text-align: right;
+    border-radius: 4px;
+    background-position-x: 15px;
+    background-position-y: 10px;
+    background-size: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    color: hsl(183, 100%, 15%);
+}
+#numpeople:hover{
+    cursor:pointer;
+    border:solid 2px hsl(172, 67%, 45%);
+}
+#error{
+    color: red;
+}
+.erro-input{
+    border:solid 2px red;
+}
+.numb22{
+    width: 230px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: hsl(180, 90%, 20%);
+    color: hsl(183, 100%, 15%);
+    font-size: 20px;
+    cursor: pointer;
+}
+#custom{
+    text-align: center;
+    background-color:hsl(185, 41%, 84%) ;
+    color:hsl(183, 100%, 15%);
+}
+#custom:hover{
+    border:solid 2px hsl(172, 67%, 45%);
+}
+
+

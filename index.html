@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+ <!-- Fonte-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!--css-->
+  <link  rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="media.css">
+  <title>Frontend Mentor | Tip calculator app</title>
+
+</head>
+<body>
+  <header>
+<img src="./images/logo.svg" alt="logo">
+</header>
+  <main id="container">
+    <div id="numb1">
+    <section id="first">
+<span>Bill</span>
+<input id="conta" type="number" placeholder="0">
+    </section>
+    <section id="btn">
+    <span>Select tip %</span>
+    <div class="margin">
+    <button class="btn-click" id="btn5" >5%</button>
+    <button class="btn-click" id="btn10" >10%</button>
+    <button class="btn-click" id="btn15" >15%</button>
+  </div>
+  <div class="margin-2">
+    <button class="btn-click" id="btn25" >25%</button>
+    <button class="btn-click" id="btn50" >50%</button>
+    <input class="btn-click" id="custom" type="number" placeholder="Custom">
+  </div>
+  </section>
+
+      <section id="footer">
+        <div id="footer-text">
+    <span>Number of People</span>
+    <span id="error"></span>
+  </div>
+    <input id="numpeople" type="number" placeholder="0">
+  </section>
+    </div>
+
+    <div id="numb2" >
+<section id="gorja1">
+<span id="name-result"><b>Tip Amount</b><br>/ person</span>
+<span id="result-tip">$ 0,00</span>
+</section>
+<section id="gorja2">
+<span id="name-result1"><b>Total</b><br>/ person</span>
+<span id="total">$ 0,00</span>
+</section>
+<section id="gorja3">
+<button id="reset" class="numb22">reset</button>
+</section>
+
+    </div>
+
+
+
+  </main>
+  <script src="index.js" ></script>
+</body>
+</html>

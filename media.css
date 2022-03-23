@@ -1,0 +1,48 @@
+@media (max-width: 375px){
+body{
+  width: 370px;
+  height: 750px;
+  background-color: hsl(172, 67%, 45%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+header{
+  width: 359px;
+    height: 150px;
+    margin-left: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+  width: 359px;
+    height: 600px;
+    margin-left: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#numb1{
+width: 350px;
+
+}
+#numb2{
+ 
+    width: 320px;
+    height: 250px;
+    
+   
+    
+ 
+}
+#btn{
+  margin-left: 22px;
+}
+
+
+
+}
